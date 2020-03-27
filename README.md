@@ -6,4 +6,4 @@
 
     Project : Simple Calculator
     Framework : Flutter
-	  Repository : [Day 0](./Day_00)
+	Repository : [Day 0](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_00)
