@@ -4,6 +4,15 @@
 
 ## Day 0
 
-    Project : Simple Calculator
-    Framework : Flutter
-	Repository : [Day 0](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_00)
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+|   Simple Calculator |  Flutter |  [Day 0](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_00http:// "Day 0") |
+
+
+## Day 1
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+|   Drop Down Selector |  CSS | [Day 1](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_01 "Day 1") |
+
+`NOTE: Only Completed the CSS Part`
