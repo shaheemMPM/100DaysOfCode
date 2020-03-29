@@ -16,3 +16,11 @@
 |   Drop Down Selector |  CSS | [Day 1](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_01 "Day 1") |
 
 `NOTE: Only Completed the CSS Part`
+
+## Day 2
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+|   Drop Down Selector |  Vanilla JS | [Day 2](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_02 "Day 2") |
+
+`NOTE: JS Implementation of Day 1 Project`

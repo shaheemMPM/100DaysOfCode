@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drop Down Selector</title>
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <div class="box-all" id="outBox">
+        <ul class="selected-items" id="selTags">
+          <li class="inlist-item">
+            hello<button class="item-close" onclick="removeTag(this)">×</button>
+          </li>
+        </ul>
+        <auto-complete>
+          <input type="text" name="tag" id="ipTag" class="tag-ip">
+          <ul class="suggest-list" id="sugList">
+            <!-- <li class="suggest-list-item">Test hello</li> -->
+          </ul>
+        </auto-complete>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
