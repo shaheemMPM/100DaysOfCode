@@ -25,10 +25,10 @@
 
 `NOTE: JS Implementation of Day 1 Project`
 
-## Day 2
+## Day 3
 
 |  Project | Framework  | Repository  |
 | :------------: | :------------: | :------------: |
-|   Drop Down Selector |  React | [Day 3](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_03 "Day 3") |
+|   React Modern Components |  React | [Day 3](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_03 "Day 3") |
 
 `NOTE: Converted Day 2 to into React`
