@@ -24,3 +24,11 @@
 |   Drop Down Selector |  Vanilla JS | [Day 2](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_02 "Day 2") |
 
 `NOTE: JS Implementation of Day 1 Project`
+
+## Day 2
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+|   Drop Down Selector |  React | [Day 3](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_03 "Day 3") |
+
+`NOTE: Converted Day 2 to into React`
