@@ -32,3 +32,9 @@
 |   React Modern Components |  React | [Day 3](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_03 "Day 3") |
 
 `NOTE: Converted Day 2 to into React`
+
+## Day 4
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Run Apps from Terminal |  Bash Scripting | [Day 4](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_04 "Day 4") |
