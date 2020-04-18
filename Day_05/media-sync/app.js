@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
         }
         for (let i = 0; i < filenames.length; i++){
             let extension = filenames[i].split('.').pop()
-            if (extension === 'png' || extension === 'jpg' || extension === 'gif') {
+            if (extension === 'jpeg' || extension === 'png' || extension === 'jpg' || extension === 'gif') {
                 let name = filenames[i]
                 name = name.split(' ').join('%20')
                 list.push(directory+'/'+name)
