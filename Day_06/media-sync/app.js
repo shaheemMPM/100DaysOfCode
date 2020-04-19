@@ -18,11 +18,17 @@ app.get('/', (req, res) => {
             return
         }
         for (let i = 0; i < filenames.length; i++){
-            let extension = filenames[i].split('.').pop()
-            if (extension === 'jpeg' || extension === 'png' || extension === 'jpg' || extension === 'gif') {
+            let extension = filenames[i].split('.').pop() 
+            let image_extensions = ['jpeg', 'jpg', 'png', 'gif', 'svg', 'bmp', 'ico', 'apng']
+            let video_extensions = ['mp4', 'ogg', 'webm']
+            if (image_extensions.includes(extension)) {
                 let name = filenames[i]
                 name = name.split(' ').join('%20')
-                list.push(directory+'/'+name)
+                list.push({type: 'image', path: directory+'/'+name})
+            }else if (video_extensions.includes(extension)) {
+                let name = filenames[i]
+                name = name.split(' ').join('%20')
+                list.push({type: 'video', path: directory+'/'+name})
             }
         }
         res.render('index', {data: list})         

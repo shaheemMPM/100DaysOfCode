@@ -13,9 +13,17 @@
       <h1>Shaheem's MacbookAir</h1>
       <div class="img-area">
         <% data.forEach((el, index) => { %>
-          <div class="single-img">
-            <img class="thumb-img" src=<%=el%>>
-          </div>
+          <% if(el.type === 'image' ){ %>
+            <div class="single-img">
+              <img class="thumb-img" src=<%=el.path%>>
+            </div>
+          <% }else if(el.type === 'video'){ %>
+            <div class="single-img">
+              <video autoplay loop id="video-background" muted plays-inline class="card-image">
+                <source src="<%=el.path%>" type="video/mp4">
+              </video>
+            </div>
+          <% } %>  
         <% }); %>
       </div>
       
