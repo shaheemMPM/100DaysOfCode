@@ -1,0 +1,15 @@
+{
+  "name": "media-sync",
+  "version": "1.0.0",
+  "description": "Share Media among devices in localnetwork",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Mohammed Shaheem P",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
