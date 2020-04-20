@@ -46,3 +46,11 @@
 | Share Files to devices in same network |  Node.js and Bash Scripting | [Day 5](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_05 "Day 5") |
 
 `NOTE: Only Images are shared as of now`
+
+## Day 6
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Share Files to devices in same network |  Node.js and Bash Scripting | [Day 6](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_06 "Day 6") |
+
+`NOTE: Added Video Availability to Day 5`

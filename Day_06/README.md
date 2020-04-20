@@ -2,7 +2,7 @@
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-This is a terminal package to share all the images in a particular folder to devices in same network
+This is a terminal package to share all the images and videos in a particular folder to devices in same network
 
 ## Usage
 
