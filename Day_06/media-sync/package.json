@@ -4,7 +4,8 @@
   "description": "Share Media among devices in localnetwork",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "start": "node app.js"
   },
   "author": "Mohammed Shaheem P",
   "license": "ISC",

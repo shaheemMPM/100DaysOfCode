@@ -173,7 +173,7 @@
    }
  }
 
-#modal-img {
+#modal-img, #modal-vid {
   max-width: 90%;
   max-height: 90vh;
 }

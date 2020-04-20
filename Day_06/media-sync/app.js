@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
         for (let i = 0; i < filenames.length; i++){
             let extension = filenames[i].split('.').pop() 
             let image_extensions = ['jpeg', 'jpg', 'png', 'gif', 'svg', 'bmp', 'ico', 'apng']
-            let video_extensions = ['mp4', 'ogg', 'webm']
+            let video_extensions = ['mp4', 'ogg', 'webm', 'mov']
             if (image_extensions.includes(extension)) {
                 let name = filenames[i]
                 name = name.split(' ').join('%20')
