@@ -11,6 +11,7 @@ app.use(express.static('/'))
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
+    directory = directory.split(' ').join('\ ')
     fs.readdir(directory, (err, filenames) => {
         let list = []
         if (err) {
