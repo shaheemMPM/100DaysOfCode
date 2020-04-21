@@ -54,3 +54,11 @@
 | Share Files to devices in same network |  Node.js and Bash Scripting | [Day 6](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_06 "Day 6") |
 
 `NOTE: Added Video Availability to Day 5`
+
+## Day 7
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| UI Challenge |  Flutter | [Day 7](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_07 "Day 7") |
+
+`NOTE: Only UI Implemented`
