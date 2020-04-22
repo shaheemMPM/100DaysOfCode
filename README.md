@@ -62,3 +62,9 @@
 | UI Challenge |  Flutter | [Day 7](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_07 "Day 7") |
 
 `NOTE: Only UI Implemented`
+
+## Day 8
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| QR Code Generator & Scanner |  Node and Vanilla JS | [Day 8](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_08 "Day 8") |

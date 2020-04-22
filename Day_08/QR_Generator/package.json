@@ -1,0 +1,27 @@
+{
+  "name": "qr_generator",
+  "version": "1.0.0",
+  "description": "Display QR Code in Terminal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaheemMPM/100daysofcode.git"
+  },
+  "keywords": [
+    "QR_Code",
+    "node",
+    "terminal"
+  ],
+  "author": "Mohammed Shaheem P",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaheemMPM/100daysofcode/issues"
+  },
+  "homepage": "https://github.com/shaheemMPM/100daysofcode#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
+}
