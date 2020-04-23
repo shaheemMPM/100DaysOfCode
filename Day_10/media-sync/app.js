@@ -39,6 +39,18 @@ app.get('/', (req, res) => {
     } else if (flag === 'l') {
         let link = process.argv[3]
         res.render('link', {data: link})
+    } else if (flag == 'c') {
+        let file = process.argv[3]
+        let ext = file.split('/')
+        ext = ext[ext.length-1]
+        ext = ext.split('.')
+        ext = ext[ext.length-1]
+        try {
+            const data = fs.readFileSync(file, 'utf8')
+            res.render('code', {lang: ext, code: data})
+        } catch (err) {
+            console.error(err)
+        }
     }
 })
 

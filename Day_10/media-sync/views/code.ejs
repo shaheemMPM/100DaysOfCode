@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaheem's MacbookAir</title>
+    <link rel="stylesheet" href="css/atom-one-dark.min.css">
+    <style>
+        pre, body {
+            margin: 0;
+        }
+
+        code {
+            width: 100vw;
+            height: 100vh;
+            overflow-y: scroll;
+            font-size: 15px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        <code class="<%= lang %>">
+            <%= code %>
+        </code>
+    </pre>
+    <script src="js/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</body>
+</html>
