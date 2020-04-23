@@ -68,3 +68,9 @@
 |  Project | Framework  | Repository  |
 | :------------: | :------------: | :------------: |
 | QR Code Generator & Scanner |  Node and Vanilla JS | [Day 8](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_08 "Day 8") |
+
+## Day 9
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Download Github Repo |  Bash Scripting | [Day 9](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_09 "Day 9") |
