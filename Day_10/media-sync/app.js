@@ -41,6 +41,7 @@ app.get('/', (req, res) => {
         res.render('link', {data: link})
     } else if (flag == 'c') {
         let file = process.argv[3]
+        file = file.split(' ').join('\ ')
         let ext = file.split('/')
         ext = ext[ext.length-1]
         ext = ext.split('.')

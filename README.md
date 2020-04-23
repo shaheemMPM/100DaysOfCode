@@ -74,3 +74,11 @@
 |  Project | Framework  | Repository  |
 | :------------: | :------------: | :------------: |
 | Download Github Repo |  Bash Scripting | [Day 9](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_09 "Day 9") |
+
+## Day 10
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Share Files, code and links |  Bash Scripting and Node JS| [Day 10](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_10 "Day 10") |
+
+`NOTE: Added link sharing and Code sharing to Day 6`
