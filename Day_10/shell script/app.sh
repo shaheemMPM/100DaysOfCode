@@ -8,7 +8,6 @@ then
         node app.js l $2
     elif [ "$1" = "-c" ]
     then
-        echo "hello"
         node app.js c $2
     fi
 else
