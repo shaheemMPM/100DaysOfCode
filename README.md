@@ -87,6 +87,6 @@
 
 |  Project | Framework  | Repository  |
 | :------------: | :------------: | :------------: |
-| Man Page for Terminal Package |  Groff| [Day 11](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_11 "Day 11") |
+| Man Page for Terminal Package |  Troff| [Day 11](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_11 "Day 11") |
 
 `NOTE: Man Page for Day 4's Package`
