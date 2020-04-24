@@ -28,6 +28,9 @@ class _HomePageState extends State<HomePage> {
   var bgColor = 0xFF3B204E; //0xFFFFFFFF
   var h1Color = 0xFFFFFFFF; //0xFF09111A
   var h6Color = 0xFFA29AAC; //0xFF85858E
+  var shadowColor = 0xFF2E153F; //0xFFBFBFBF
+  var boxColor = 0xFF452f53; //0xFFFFFFFF
+  var h4Color = 0xFFBCBCBC; //0xFF5A7ED1
 
   @override
   Widget build(BuildContext context) {
@@ -74,7 +77,13 @@ class _HomePageState extends State<HomePage> {
             )
           ),
           SizedBox(height: 40.0),
-          GridDashboard()
+          GridDashboard(
+            shadowColor: shadowColor, 
+            boxColor: boxColor,
+            h1Color: h1Color,
+            h6Color: h6Color,
+            h4Color: h4Color
+          )
         ],
       ),
     );
@@ -85,11 +94,21 @@ class _HomePageState extends State<HomePage> {
       setState(() {
         selected = 'light';
         bgColor = 0xFFFFFFFF;
+        h1Color = 0xFF09111A;
+        h6Color = 0xFF85858E;
+        shadowColor = 0xFFBFBFBF;
+        boxColor = 0xFFFFFFFF;
+        h4Color = 0xFF5A7ED1;
       });
     }else {
       setState(() {
         selected = 'dark';
         bgColor = 0xFF392850;
+        h1Color = 0xFFFFFFFF;
+        h6Color = 0xFFA29AAC;
+        shadowColor = 0xFF2E153F;
+        boxColor = 0xFF452f53;
+        h4Color = 0xFFBCBCBC;
       });
     }
   }

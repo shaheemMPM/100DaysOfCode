@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 
 class GridDashboard extends StatelessWidget {
 
-  final shadowColor = 0xFF2E153F; //0xFFBFBFBF
-  final boxColor = 0xFF452f53; //0xFFFFFFFF
+  final shadowColor;
+  final boxColor;
+  final h1Color;
+  final h6Color;
+  final h4Color;
+
+  GridDashboard({this.shadowColor, this.boxColor, this.h1Color, this.h6Color, this.h4Color});
 
   final Item item1 = new Item(
     title: "Calendar",
@@ -79,7 +84,7 @@ class GridDashboard extends StatelessWidget {
                 Text(data.title,
                   style: TextStyle(
                     fontFamily: 'OpenSans',
-                    color: Colors.white,
+                    color: Color(h1Color),
                     fontSize: 16.0,
                     fontWeight: FontWeight.w600
                   ),
@@ -88,7 +93,7 @@ class GridDashboard extends StatelessWidget {
                 Text(data.subtitle,
                   style: TextStyle(
                     fontFamily: 'OpenSans',
-                    color: Colors.white38,
+                    color: Color(h6Color),
                     fontSize: 10.0,
                     fontWeight: FontWeight.w600
                   ),
@@ -97,7 +102,7 @@ class GridDashboard extends StatelessWidget {
                 Text(data.event,
                   style: TextStyle(
                     fontFamily: 'OpenSans',
-                    color: Colors.white70,
+                    color: Color(h4Color),
                     fontSize: 11.0,
                     fontWeight: FontWeight.w600
                   ),
