@@ -1,0 +1,185 @@
+.TH APP 1 2020-04-24 GNU
+
+.SH NAME
+app \- mac hotkeys to automate usual boring tasks
+
+.SH SYNOPSIS
+.B app 
+\fIhotkey\fR
+[\fB\-c\ \fIfilename\fR]
+[\fB\-l\ \fIlink\fR]
+[\fBargument\fR]
+[\fB\-\-version\fR]
+[\fB\-v\fR]
+
+.SH DESCRIPTION
+\fBapp\fR is a mac terminal package which can automate many usual boring tasks. expected audience of \fBapp\fR will be developers who work most of the time with terminal opened. they can make use of simple shortcuts in \fBapp\fR to open most of the applications in mac as well as some other cool tasks.
+
+.SH OPTIONS
+
+.TP
+.BR share\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+shares current directory with a web interface over localhost.\ example: \fBapp share\fR
+
+.TP
+.BR share\ \fI\-l\ link\fR
+shares a link with web interface over localhost.\ example: \fBapp share \-l https://www.google.com\fR
+
+.TP
+.BR share\ \fI\-c\ filename\fR
+shares a code file with web interface and syntax hightlighting over localhost.\ example: \fBapp share \-c main.dart\fR
+
+.TP
+.BR get\ \fIurl\fR\ \ \ \ \ \ \ \ \ \ \ \ 
+downolads specified url to current directory.\ example: \fBapp get https://www.imugr.com/a.png\fR
+
+.TP
+.BR repo\ \fIurl_to_github_repo\fR
+downolads specified github repository to current directory.\ example: \fBapp repo https://github.com/shaheemMPM/test\fR
+
+.TP
+.BR repo\ \fIgithub_user_name\ repo_name\fR
+downolads repo from specified github user to current directory.\ example: \fBapp repo\ shaheemMPM\ test\fR
+
+.TP
+.BR pixel\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+opens pixel 3 XL emulator.\ example: \fBapp pixel\fR
+
+.TP
+.BR jump\ active
+directs into my active working projects directory.\ example: \fBapp jump active\fR
+
+.TP
+.BR server\ 
+share currect directory over port 8000 in localhost.\ example: \fBapp server\fR
+
+.TP
+.BR tm\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+opens telegram media folder for native telegram app.\ example: \fBapp tm\fR
+
+.TP
+.BR .\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens current directory in finder.\ example: \fBapp .\fR
+
+.TP
+.BR chrome\  
+opens chrome browser.\ example: \fBapp chrome\fR
+
+.TP
+.BR chrome\ \fIPORT_NUMBER\fR
+opens chrome browser with specified port on local host. example: \fBapp chrome 3000\fR
+
+.TP
+.BR safari\ 
+opens safari browser.\ example: \fBapp safari\fR
+
+.TP
+.BR safari\ \fIPORT_NUMBER\fR
+opens safari browser with specified port on local host. example: \fBapp safari 3000\fR
+
+.TP
+.BR fox\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+opens safari browser.\ example: \fBapp safari\fR
+
+.TP
+.BR fox\ \fIPORT_NUMBER\fR
+opens firefox browser with specified port on local host. example: \fBapp fox 3000\fR
+
+.TP
+.BR studio\ 
+opens Android Studio.\ example: \fBapp studio\fR
+
+.TP
+.BR postman\ 
+opens postman.\ example: \fBapp postman\fR
+
+.TP
+.BR gram\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+opens native telegram app.\ example: \fBapp gram\fR
+
+.TP
+.BR note\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens apple notes application.\ example: \fBapp note\fR
+
+.TP
+.BR cale\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens apple calendar application.\ example: \fBapp cale\fR
+
+.TP
+.BR calc\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens apple calculator application.\ example: \fBapp calc\fR
+
+.TP
+.BR music\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens Spotify.\ example: \fBapp music\fR
+
+.TP
+.BR vlc\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens VLC media player.\ example: \fBapp vlc\fR
+
+.TP
+.BR vlc\ \fIFILE_NAME\fR
+opens VLC media player file given as argument.\ example: \fBapp vlc video.mp4\fR
+
+.TP
+.BR github\ 
+opens my github profile in safari.\ example: \fBapp github\fR
+
+.TP
+.BR github\ \fIREPO_NAME\fR
+opens a repository in my github account in safari.\ example: \fBapp github\fR
+
+.TP
+.BR fb\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens my Facebook Profile in Safari.\ example: \fBapp fb\fR
+
+.TP
+.BR insta\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens my Intagram Feed in Safari.\ example: \fBapp insta\fR
+
+.TP
+.BR twitter
+opens my Twitter Profile in Safari.\ example: \fBapp twitter\fR
+
+.TP
+.BR linked\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens my LinkedIn Profile in Safari.\ example: \fBapp linked\fR
+
+.TP
+.BR firebase
+opens my Firebase Console in Safari.\ example: \fBapp firebase\fR
+
+.TP
+.BR youtube
+opens Youtube in Safari.\ example: \fBapp youtube\fR
+
+.TP
+.BR photos\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens my Google Photos Library in Safari.\ example: \fBapp photos\fR
+
+.TP
+.BR whatsapp
+opens my web whatsapp in Safari.\ example: \fBapp whatsapp\fR
+
+.TP
+.BR world\ \ \ \ \ \ \ \ \ \ \ \ 
+opens world map.\ example: \fBapp world\fR
+
+.TP
+.BR world\ high
+opens high contrast world map.\ example: \fBapp world high\fR
+
+.TP
+.BR india\ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+opens map of india.\ example: \fBapp india\fR
+
+.SH FILES
+.I /Applications/media-sync \ \ \ \ \ \ \ \ \ \ \ \ \ 
+.I usr/local/bin
+
+.SH AUTHOR
+.B MOHAMMED SHAHEEM P 
+.I https://github.com/shaheemMPM
+
+.SH SEE ALSO
+.I https://github.com/shaheemMPM/100daysofcode
