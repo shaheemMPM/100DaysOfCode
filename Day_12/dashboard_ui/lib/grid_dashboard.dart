@@ -55,7 +55,7 @@ class GridDashboard extends StatelessWidget {
     return Flexible(
       child: GridView.count(
         childAspectRatio: 1.0,
-        padding: EdgeInsets.only(left: 16.0, right: 16.0),
+        padding: EdgeInsets.only(top: 16.0, left: 16.0, right: 16.0),
         crossAxisCount: 2,
         crossAxisSpacing: 18.0,
         mainAxisSpacing: 18.0,
@@ -65,11 +65,11 @@ class GridDashboard extends StatelessWidget {
               boxShadow: [
                 BoxShadow(
                   color: Color(shadowColor),
-                  blurRadius: 25.0, // soften the shadow
+                  blurRadius: 10.0, // soften the shadow
                   spreadRadius: 5.0, //extend the shadow
                   offset: Offset(
-                    15.0, // Move to right 10  horizontally
-                    15.0, // Move to bottom 10 Vertically
+                    10.0, // Move to right 10  horizontally
+                    10.0, // Move to bottom 10 Vertically
                   ),
                 )
               ],
@@ -94,7 +94,7 @@ class GridDashboard extends StatelessWidget {
                   style: TextStyle(
                     fontFamily: 'OpenSans',
                     color: Color(h6Color),
-                    fontSize: 10.0,
+                    fontSize: 12.0,
                     fontWeight: FontWeight.w600
                   ),
                 ),

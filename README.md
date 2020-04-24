@@ -90,3 +90,11 @@
 | Man Page for Terminal Package |  Troff| [Day 11](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_11 "Day 11") |
 
 `NOTE: Man Page for Day 4's Package`
+
+## Day 12
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| UI Challenge |  Flutter | [Day 12](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_12 "Day 12") |
+
+`NOTE: Only UI Implemented`

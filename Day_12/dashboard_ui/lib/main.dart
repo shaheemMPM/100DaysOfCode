@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'grid_dashboard.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,13 +25,52 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  var selected = 'dark';
-  var bgColor = 0xFF3B204E; //0xFFFFFFFF
-  var h1Color = 0xFFFFFFFF; //0xFF09111A
-  var h6Color = 0xFFA29AAC; //0xFF85858E
-  var shadowColor = 0xFF2E153F; //0xFFBFBFBF
-  var boxColor = 0xFF452f53; //0xFFFFFFFF
-  var h4Color = 0xFFBCBCBC; //0xFF5A7ED1
+  var selected = 'light';
+  var bgColor = 0xFFFFFFFF;
+  var h1Color = 0xFF09111A;
+  var h6Color = 0xFF85858E;
+  var shadowColor = 0xFFBFBFBF;
+  var boxColor = 0xFFFFFFFF;
+  var h4Color = 0xFF5A7ED1;
+
+  read(String key) async {
+    final prefs = await SharedPreferences.getInstance();
+    var temp = prefs.getString(key);
+    if (temp != null) {
+      if (temp == 'light') {
+        setState(() {
+          selected = 'light';
+          bgColor = 0xFFFFFFFF;
+          h1Color = 0xFF09111A;
+          h6Color = 0xFF85858E;
+          shadowColor = 0xFFBFBFBF;
+          boxColor = 0xFFFFFFFF;
+          h4Color = 0xFF5A7ED1;
+        });
+      } else {
+        setState(() {
+          selected = 'dark';
+          bgColor = 0xFF3B204E;
+          h1Color = 0xFFFFFFFF;
+          h6Color = 0xFFA29AAC;
+          shadowColor = 0xFF2E153F;
+          boxColor = 0xFF452f53;
+          h4Color = 0xFFBCBCBC;
+        });
+      }
+    }
+  }
+
+  save(String key, value) async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setString(key, value);
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    read('themedata');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -91,6 +131,7 @@ class _HomePageState extends State<HomePage> {
 
   changeThem(){
     if (selected == 'dark') {
+      save('themedata', 'light');
       setState(() {
         selected = 'light';
         bgColor = 0xFFFFFFFF;
@@ -101,6 +142,7 @@ class _HomePageState extends State<HomePage> {
         h4Color = 0xFF5A7ED1;
       });
     }else {
+      save('themedata', 'dark');
       setState(() {
         selected = 'dark';
         bgColor = 0xFF392850;
