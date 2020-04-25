@@ -98,3 +98,11 @@
 | UI Challenge |  Flutter | [Day 12](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_12 "Day 12") |
 
 `NOTE: Only UI Implemented`
+
+## Day 13
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Dua App |  Flutter | [Day 13](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_13 "Day 13") |
+
+`NOTE: Added Haddad only`
