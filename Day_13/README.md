@@ -5,6 +5,8 @@
 
 ## Demo
 
-![preview](./images/demo1.png =360x)
+![preview](./images/demo1.png)
 
-![preview](./images/demo2.png =360x)
+![preview](./images/demo2.png)
+
+img[alt=preview] { width: 360px; }
