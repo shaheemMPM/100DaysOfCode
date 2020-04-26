@@ -106,3 +106,11 @@
 | Dua App |  Flutter | [Day 13](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_13 "Day 13") |
 
 `NOTE: Added Haddad only`
+
+## Day 14
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Gibberish String |  NPM | [Day 14](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_14 "Day 14") |
+
+`NOTE: Just for testing`
