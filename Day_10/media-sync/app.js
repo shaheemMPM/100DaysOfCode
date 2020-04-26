@@ -1,7 +1,9 @@
 const express = require('express'),
       app     = express(),
       fs      = require('fs'),
-      userFns = require('./functions/functions')
+      userFns = require('./functions/functions'),
+      https   = require('https'),
+      path    = require('path')
 
 let flag      = process.argv[2],
     port      = process.env.PORT || 1234
@@ -58,3 +60,12 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`Connect to Same Network and Goto http://${userFns.getIpAdress()}:${port}/`)
 })
+
+// const httpsOptions = {
+//     cert: fs.readFileSync(path.join(__dirname, 'SSL', 'server.crt')),
+//     key: fs.readFileSync(path.join(__dirname, 'SSL', 'server.key'))
+// }
+
+// https.createServer(httpsOptions, app).listen(port, () => {
+//     console.log(`Connect to Same Network and Goto http://${userFns.getIpAdress()}:${port}/`);
+// })
