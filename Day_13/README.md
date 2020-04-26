@@ -5,8 +5,5 @@
 
 ## Demo
 
-![preview](./images/demo1.png)
-
-![preview](./images/demo2.png)
-
-img[alt=preview] { width: 360px; }
+<img src="./images/demo1.png" width="360" />
+<img src="./images/demo2.png" width="360" />
