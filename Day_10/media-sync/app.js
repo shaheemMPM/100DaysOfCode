@@ -15,6 +15,9 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
     if (flag === 'f') {
         let directory = process.argv[3]
+        for (let i = 4; i < process.argv.length; i++) {
+            directory = directory + ' ' + process.argv[i]
+        }
         directory = directory.split(' ').join('\ ')
         fs.readdir(directory, (err, filenames) => {
             let list = []
