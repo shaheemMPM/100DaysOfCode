@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "448726695301",
+    "firebase_url": "https://shaheem-firedata.firebaseio.com",
+    "project_id": "shaheem-firedata",
+    "storage_bucket": "shaheem-firedata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448726695301:android:2a8c31cccea210b716d8ec",
+        "android_client_info": {
+          "package_name": "com.example.realtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448726695301-a6udij9ai4gdt2r04vlh0gk4thtcu0ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtimedatabase",
+            "certificate_hash": "94964de7bc829817419c6e18c3daa92570e464ae"
+          }
+        },
+        {
+          "client_id": "448726695301-qp4clrliqou4kf2ap705ahfpirqd141j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM_-CEN4YtbRDop1qTkLxn-wcC6VbvoMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448726695301-qp4clrliqou4kf2ap705ahfpirqd141j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
