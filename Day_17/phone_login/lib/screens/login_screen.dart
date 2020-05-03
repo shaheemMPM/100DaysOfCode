@@ -7,7 +7,7 @@ class LoginScreen extends StatelessWidget {
   final _phoneController = TextEditingController();
   final _codeContoller = TextEditingController();
 
-  Future<bool> loginUser(String phone, BuildContext context) async {
+  Future<void> loginUser(String phone, BuildContext context) async {
     FirebaseAuth _auth = FirebaseAuth.instance;
     _auth.verifyPhoneNumber(
         phoneNumber: phone,
