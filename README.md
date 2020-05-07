@@ -6,7 +6,7 @@
 
 |  Project | Framework  | Repository  |
 | :------------: | :------------: | :------------: |
-|   Simple Calculator |  Flutter |  [Day 0](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_00http:// "Day 0") |
+|   Simple Calculator |  Flutter |  [Day 0](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_00 "Day 0") |
 
 
 ## Day 1
