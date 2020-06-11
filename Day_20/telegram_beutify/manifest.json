@@ -1,0 +1,20 @@
+{
+    "name": "Telegram Beautify",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "content_scripts": [
+      {
+        "matches": ["https://web.telegram.org/*"],
+        "css": ["master.css"]
+      }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "48": "48.png",
+        "128": "128.png"
+    }
+}

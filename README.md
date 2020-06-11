@@ -144,3 +144,9 @@
 |  Project | Framework  | Repository  |
 | :------------: | :------------: | :------------: |
 | Monster Attack |  Vue | [Day 19](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_19 "Day 19") |
+
+## Day 19
+
+|  Project | Framework  | Repository  |
+| :------------: | :------------: | :------------: |
+| Telegram Beautify |  JavaScript & Chrome Extensions | [Day 20](https://github.com/shaheemMPM/100DaysOfCode/tree/master/Day_20 "Day 20") |

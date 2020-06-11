@@ -1,0 +1,12 @@
+.im_message_out {
+    background: #0055D3;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.im_message_in {
+    background: #323232;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
